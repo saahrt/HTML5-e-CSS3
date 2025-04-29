@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Trabalhando com Links</h1>
+    <h2>Usando links externos</h2>
+    <p>Você pode acessar o meu <a href="https://github.com/saahrt" target="_blank" rel="external">repositório público do GitHub</a></p>
+    <!-- Link externo é recomendado utilizar o target(alvo) _blank, isso serve para abrir em uma nova aba, e o rel (relativo) external-->
+    <p>Você também pode acessar o meu <a href="https://www.linkedin.com/in/raynna-almeida"> perfil no Linkedin</a></p>
+    <h2>Usando links internos</h2>
+    <p>Está é a primeira página do site, se vc quiser pode acessar também a minha <a href="pag2.html" rel="next">segunda página</a></p>
+    <p>Você também pode acessar nossa <a href="noticias/pag3.html" rel="next" target="_self">página de notícias</a></p>
+    <!-- não usar target para nao abrir pagina nova ou também pode-se utilizar target _self -->
+     <h1>Links DOWNLOAD</h1>
+     <ul>
+        <!-- https://www.iana.org/assignments/media-types/media-types.xhtml -->
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o Livro PDF</a></li>
+        <li><a href="./livro/meulivro.zip" download="meulivro.zip" type="application/zip">Compactado em .zip</a></li>
+     </ul>
+</body>
+</html>
