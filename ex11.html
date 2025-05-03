@@ -19,11 +19,13 @@
     <p>Vamos aprender a reproduzir audio em html 5</p>
     <audio src="./audio/Finland - TrackTribe.mp3" controls autoplay></audio>
     <!-- MP3 WAV OGG -->
-     <audio preload="metadata" controls>
+     <audio preload="metadata" controls autoplay loop>
         <!-- a ordem importa, vai de cima pra baixo -->
         <source src="./audio/guanacast-33.mp3" type="audio/mpeg">
         <source src="./audio/guanacast-33.ogg" type="audio/ogg">
         <source src="./audio/guanacast-33.wav" type="audio/wav">
+        <!-- evitar arquivos wav por serem muito pesados -->
+         
         <p>Infelizmente seu navegador não consegue reproduir audio, <a href="./audio/guanacast-33.mp3">clique aqui para baixar o arquivo mp3</a></p>
      </audio>
 </body>
